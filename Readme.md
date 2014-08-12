@@ -32,17 +32,14 @@ nodraw:  same as default but Turtle will avoid the draw
 
 You can edit settings file or create your own one. Here is a brief list
 of available variables:
-
+--- | ---
 **Mode**         | Play/BookLearn
-
 **Default**      | Console/GUI/FileSystem/Turtle (interface type)
 **Blocking**     | Boolean (is the interface blocking?)
 **SigIntQuit**   | Boolean (should Turtle quit after ^C? If not, it only breaks
                            the search => kind of "force move" command)
-
 **InPipe**       | String (input when using FileSystem)
 **OutPipe**      | String (output when using FileSystem)
-
 **UseBook**      | Boolean
 **BookFileName** | String
 **DrawValue**    | Integer (draw value for white)
@@ -51,28 +48,20 @@ of available variables:
 **LearnGame**    | Boolean (should the new games in book be learnt? different than 
                            StoreGame below)
 **LearningTime** | Integer (seconds per move)
-
 **TimeMode**     | Real/CPU
-
 **GameTime**     | Integer (seconds for the whole game)
 **Trust**        | Boolean (trust opponent time?)
 **RestoreClocks** | Boolean (restore clocks when taking back moves?)
-
 **ClockWise**    | Forward/Backward (display time from 0 or GameTime?)
-
 **HashBits**     | Integer (number of bits in keys, needs 2^(HashBits+3) bytes)
 **UseOppTime**   | Boolean (think on opponent time? Interface needs to be
                       non-blocking)
-
 **UseProbCut**   | Boolean
 **ProbCutLevel** | Float   (confidence interval)
-
 **WldSolve**     | WLD/LD/DW (which window should be used first)
 **FullSolve**    | Full/Window/NegaC*/Pessimism
-
 **MgEventPeriod** | Integer (periodicity of event checks during midgame)
 **EgEventPeriod** | Integer (periodicity of event checks during endgame)
-
 **StoreGame**    | None/Loss/All (store game in book when finished?)
 **AutoRestart**  | Boolean (start another game automatically?)
 **AutoSwap**     | Boolean (switch colours after each game?)
