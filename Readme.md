@@ -21,12 +21,13 @@ interface, only the one-letter commands are available ...
 
 ### Settings files
 
-default: ASCII interface (with additionnal X11 board if compiled with Xlib)
-gui:     the X11 board becomes the interface (advantage: non-blocking)
-ldraw:   book self learning (you can choose a line by adding
-         "Set LearnLine F5F6" for example, always start with F5 ...)
-lnodraw: same as ldraw but Turtle will avoid the draw
-nodraw:  same as default but Turtle will avoid the draw
+name | description
+--- | ---
+**default:** | ASCII interface (with additionnal X11 board if compiled with Xlib)
+**gui:**     | the X11 board becomes the interface (advantage: non-blocking)
+**ldraw:**   | book self learning (you can choose a line by adding "Set LearnLine F5F6" for example, always start with F5 ...)
+**lnodraw:** | same as ldraw but Turtle will avoid the draw
+**nodraw:**  | same as default but Turtle will avoid the draw
 
 ### Variables
 
