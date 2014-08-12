@@ -32,6 +32,8 @@ nodraw:  same as default but Turtle will avoid the draw
 
 You can edit settings file or create your own one. Here is a brief list
 of available variables:
+
+name | description
 --- | ---
 **Mode**         | Play/BookLearn
 **Default**      | Console/GUI/FileSystem/Turtle (interface type)
